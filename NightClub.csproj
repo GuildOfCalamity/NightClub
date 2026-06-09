@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <SignAssembly>True</SignAssembly>
+    <Copyright>2023</Copyright>
+    <Description>Library Testing</Description>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+	<InformationalVersion>1.0.0.1</InformationalVersion>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Title>Night Club</Title>
+    <AssemblyOriginatorKeyFile>club.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>embedded</DebugType>
+	<Optimize>true</Optimize>
+  </PropertyGroup>
+
+</Project>
