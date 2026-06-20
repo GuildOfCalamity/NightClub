@@ -1,5 +1,7 @@
 ## 💻 Console - NightClub
 
+![Example](./Screenshot.png)
+
 **Dependencies**
 
 | Assembly | Version |
